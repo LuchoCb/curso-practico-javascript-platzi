@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso Practico JS PLATZI </title>
+</head>
+<body>
+    <header>
+    <H1>
+        Figuras Geométricas
+    </H1>
+    <p>Primer taller práctico JS</p>
+</header>
+
+<section>
+    <h2>Calcula el  Perimetro y el Área de un Cuadrado</h2>
+    <form>
+        <label for="InputCuadrado">
+            Escribe cuánto mide cada lado de tu cuadrado:
+        </label>
+        <input id="InputCuadrado" type="number" />
+        <button type="button" onclick="calcularPC()">
+            Calcular el perimetro
+        </button>
+        <button type="button" onclick="calcularAC()">
+            Calcular el área
+        </button>
+    </form>
+</section>
+
+<section>
+    <h2>Calcula el área y el perímetro de un Triangulo</h2>
+    <form>
+        <h3>Perímetro del triángulo</h3>
+        <label for="InputTL1">
+            Escribe cuánto mide cada lado de tu triángulo:
+        </label>
+        <input id="InputTL1" type="number" />
+        <input id="InputTL2" type="number" />
+        <input id="InputTL3" type="number" />
+
+        <button type="button" onclick="calcularPT()">
+            Calcular el perimetro
+        </button>
+        
+        <h3>Área del triángulo</h3>
+
+        <label>
+            Escribe la base y la altura del triángulo:
+        </label>
+
+        <label for="InputBT">
+            Base:
+        </label>
+        <input id="InputBT" type="number" />
+        <label for="InputBT">
+            Altura:
+        </label>
+        <input id="InputAT" type="number" />
+        <button type="button" onclick="calcularAT()">
+            Calcular el área
+        </button>
+    </form>
+</section>
+
+<section>
+    <h2>Calcula el Diámetro - Perímetro y Área de un círculo</h2>
+    <form>
+        <label for="InputRC">
+            Escribe el radio del circulo:
+        </label>
+        <input id="InputRC" type="number" />
+
+        <button type="button" onclick="calcularDC()">
+            Calcular el diámetro
+        </button>
+        <button type="button" onclick="calcularPCi()">
+            Calcular el Perímetro
+        </button>
+        <button type="button" onclick="calcularACi()">
+            Calcular el Área
+        </button>
+    </form>
+</section>
+    <script src="./figuras.js">
+
+    </script>
+</body>
+</html>
